@@ -14,5 +14,5 @@
 	</suggests>
 	<showCrossPromotions>true</showCrossPromotions>
 	<manifestUri>https://github.com/Adda0/VegetarianMealsIncreasedNutrition/blob/master/About/Manifest.xml</manifestUri>
-	<downloadUri>https://github.com/Adda0/VegetarianMealsIncreasedNutrition/releases</downloadUri>
+	<downloadUri>https://github.com/Adda0/VegetarianMealsIncreasedNutrition/releases/tag/1.0.1.2</downloadUri>
 </Manifest>
