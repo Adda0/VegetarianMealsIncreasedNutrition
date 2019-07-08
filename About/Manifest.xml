@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>VegetarianMealsIncreasedNutrition</identifier>
-	<version>1.0.1.1</version>
+	<version>1.0.1.2</version>
 	<dependencies>
 		<li>VegetarianMeals[1.0]</li>
 	</dependencies>
 	<incompatibleWith />
 	<loadBefore />
-	<loadAfter>
-		<li>Core</li>
-	</loadAfter>
+	<loadAfter />
 	<suggests>
 		<li>SimpleBulkCooking</li>
 		<li>SimpleBulkCookingPatches</li>
