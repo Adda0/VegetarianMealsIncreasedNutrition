@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vegetarian Meals Increased Nutrition</name>
+	<author>Adda</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1795520188</url>
+	<description>
+Simple mod increasing nutrition requirements for cooking vegetarian meals from Vegetarian Meals [1.0] mod by ConZ with added compatibility with Simple Bulk Crafting Patches mod by Adda for bulk crafting vegetarian meals for original mod Simple Bulk Cooking mod by Lanilor.
+
+This way vegetarian meals are not that overpowered and there is still a reason to make normal vanilla meals when it is possible as well.
+
+––––––––––––
+Updated requirements
+
+Requirements of a vegetarian fine meal were increased by 25 % and requirements of a vegetarian lavish meal and a vegetarian packaged survival meal by 50 % (as was suggested by ConZ, author of the original mod Vegetarian Meals [1.0].
+
+Vegetarian fine meal
+Original nutrition requirements: 0.5 (~10 raw food)
+Updated nutrition requirements: 0.625 (~13 raw food)
+
+Vegetarian lavish meal
+Original nutrition requirements: 1 (~20 raw food)
+Updated nutrition requirements: 1.5 (~30 raw food)
+
+Vegetarian packaged survival meal
+Original nutrition requirements: 0.6 (~12 raw food)
+Updated nutrition requirements: 0.9 (~18 raw food)
+
+––––––––––––
+Compatibility and other mods
+
+Mod is safe to add to your saved games or delete from them.
+
+Recommended mods
+
+Simple Bulk Cooking by Lanilor – adds an ability to produce meals in bulk – in packs of four. Does not decrease the amount of work needed to make a meal, only saves the time of your cook by allowing him to cook meals in bulk. Compatibility patch for increased nutrition requirements for Simple Bulk Crafting Patches mod by Adda included in this mod.
+
+Compatible mods
+
+Vegetarian Meals [1.0] by ConZ – adds three new vegetarian meals copying vanilla meals made just with raw veggies, berries, milk, eggs or insect jelly in any combination. But made vanilla meals almost useless – this is the reason I decided to make this mod – to ensure vanilla meals still have some useful place in the game.
+
+Simple Bulk Cooking by Lanilor by using my other mod called Simple Bulk Cooking Patches – adds an ability to produce meals in bulk – in packs of four. Does not decrease the amount of work needed to make a meal, only saves the time of your cook by allowing him to cook meals in bulk.
+
+Simple Bulk Cooking Patches by Adda – just a quick patch to allow producing of vegetarian meals in bulk in packs of four. Mod was created for Simple Bulk Cooking by Lanilor.
+
+Mod should be fully compatible with every other mod. Though if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+
+Known incompatible mods
+
+None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning :)
+
+Load order
+
+Load order should not be affected by any other mods. Just load this anywhere after Core but if you find any problems, just let me know in the discussion below so I can fix them.
+
+––––––––––––
+Credits
+
+Original mod: Vegetarian Meals [1.0] by ConZ – I used his meals and just rewrite his code to increase nutrition requirements for every one of his three new vegetarian meals.
+
+License
+All original code in this mod is licensed under the MIT license. Do what you want, but give me credit.
+	</description>
+</ModMetaData>
