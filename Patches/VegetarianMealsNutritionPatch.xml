@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vegetarian Meals [1.0]</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.625</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>1.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.9</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Simple Bulk Cooking</li>
+			<li>Feed the Colonists</li>
+			<li>Simply Bulk Crafting</li>
+			
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVegBulk"]/ingredients/li/count</xpath>
+					<value>
+						<count>2.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVegBulk"]/ingredients/li/count</xpath>
+					<value>
+						<count>6</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVegBulk"]/ingredients/li/count</xpath>
+					<value>
+						<count>3.6</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Master of Cooking</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVegBulk5"]/ingredients/li/count</xpath>
+					<value>
+						<count>3.125</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVegBulk10"]/ingredients/li/count</xpath>
+					<value>
+						<count>6.25</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVegBulk20"]/ingredients/li/count</xpath>
+					<value>
+						<count>12.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVegBulk50"]/ingredients/li/count</xpath>
+					<value>
+						<count>31.25</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVegBulk5"]/ingredients/li/count</xpath>
+					<value>
+						<count>7.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVegBulk10"]/ingredients/li/count</xpath>
+					<value>
+						<count>15</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVegBulk20"]/ingredients/li/count</xpath>
+					<value>
+						<count>30</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVegBulk50"]/ingredients/li/count</xpath>
+					<value>
+						<count>75</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVegBulk5"]/ingredients/li/count</xpath>
+					<value>
+						<count>4.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVegBulk10"]/ingredients/li/count</xpath>
+					<value>
+						<count>9</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVegBulk20"]/ingredients/li/count</xpath>
+					<value>
+						<count>18</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVegBulk50"]/ingredients/li/count</xpath>
+					<value>
+						<count>45</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
