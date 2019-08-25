@@ -6,6 +6,7 @@
 			<li>Vegetarian Meals [1.0]</li>
 		</mods>
 		<match Class="PatchOperationSequence">
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>*/RecipeDef[defName = "CookMealFineVeg"]/ingredients/li/count</xpath>
@@ -144,4 +145,38 @@
 		</match>
 	</Operation>
 
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.0] RimCuisine 2 Meals and Munchies Expansion</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName = "Adda_RC2_CookMealVeg_Fine"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.625</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "Adda_RC2_CookMealVeg_Lavish"]/ingredients/li/count</xpath>
+					<value>
+						<count>1.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "Adda_RC2_CookMealVeg_Survival"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.9</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "Adda_RC2_CookMealFineVegBulk"]/ingredients/li/count</xpath>
+					<value>
+						<count>6.25</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>
