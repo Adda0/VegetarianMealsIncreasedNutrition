@@ -3,6 +3,35 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
+			<li>Vegetarian Meals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealFineVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.625</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealLavishVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>1.5</count>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/RecipeDef[defName = "CookMealSurvivalVeg"]/ingredients/li/count</xpath>
+					<value>
+						<count>0.9</count>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
 			<li>Vegetarian Meals [1.0]</li>
 		</mods>
 		<match Class="PatchOperationSequence">

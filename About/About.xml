@@ -2,7 +2,11 @@
 <ModMetaData>
 	<name>Vegetarian Meals Increased Nutrition</name>
 	<author>Adda</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Adda.VegetarianMealsIncreasedNutrition</packageId>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1795520188</url>
 	<description>
 Simple mod increasing nutrition requirements for cooking vegetarian meals from Vegetarian Meals [1.0] with added compatibility patch for Vegetarian Meals Bulk Cooking Patch for bulk cooking vegetarian meals for mods Simple Bulk Cooking, Feed The Colonists, Simply Bulk Crafting), Master of Cooking and RimCuisine 2.
